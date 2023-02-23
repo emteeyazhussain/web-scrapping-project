@@ -1,18 +1,27 @@
 body {
-  background-color: #91ced4;
+  background-color: #759b93;
 }
 body * {
   box-sizing: border-box;
 }
 
 .header {
-  background-color: #327a81;
-  color: white;
-  font-size: 1.5em;
+  background-color: #9956cf;
+  color: rgb(72 9 9);
+  font-size: 2.5rem;
   padding: 1rem;
   text-align: center;
   text-transform: uppercase;
 }
+
+.content header {
+background-color: #2a0e40;
+color: #e2dde7;
+font-size: 1.3rem;
+border-radius: 19px;
+}
+
+
 
 img {
   border-radius: 50%;
@@ -161,3 +170,14 @@ table tr:nth-child(2n+1) {
     overflow: visible;
   }
 }
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
